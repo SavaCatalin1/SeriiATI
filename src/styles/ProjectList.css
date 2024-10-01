@@ -1,0 +1,38 @@
+/* src/components/ProjectList.css */
+.project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-list li {
+    margin-bottom: 10px;
+  }
+  
+  .project-list a {
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-list a:hover {
+    background-color: #bdc3c7;
+  }
+  
+  .add-project {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-project input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .add-project button {
+    flex-shrink: 0;
+  }
+  

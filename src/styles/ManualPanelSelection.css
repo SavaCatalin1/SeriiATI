@@ -1,0 +1,19 @@
+/* src/components/ManualPanelSelection.css */
+.manual-panel-selection {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .manual-panel-selection input,
+  .manual-panel-selection select {
+    width: calc(33% - 10px);
+    margin-right: 10px;
+  }
+  
+  .manual-panel-selection button {
+    margin-top: 10px;
+  }
+  

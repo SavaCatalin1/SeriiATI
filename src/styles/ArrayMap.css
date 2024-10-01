@@ -1,0 +1,21 @@
+.array-map-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 120px); /* Change the number of columns as needed */
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+  }
+  
+  .array-rectangle {
+    width: 100px;
+    height: 60px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }

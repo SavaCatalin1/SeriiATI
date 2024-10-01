@@ -1,0 +1,16 @@
+.array-config {
+  padding: 20px;
+}
+
+.array-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.array-button:hover {
+  background-color: #2980b9;
+}
